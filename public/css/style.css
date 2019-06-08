@@ -1,0 +1,39 @@
+
+body{
+    text-align: center;
+    color:black;
+    font-family: 'Arial';
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    min-height: 95vh;
+}
+
+.main-content{
+    flex-grow: 1;
+}
+
+footer {
+    text-align: left;
+    font-weight: bold;
+    padding: 5px;
+    margin: 10px;
+    color: black;
+    border-top: 1px solid gray;
+    font-size: 20px;
+}
+
+header{
+    margin-top: 15px;
+    margin-bottom: 15px;
+  }
+header h1{
+    font-size: 65px;
+}
+header a{
+    text-decoration: none;
+    padding: 25px;
+    color: darkgray;
+    font-weight: bolder;
+}
+
